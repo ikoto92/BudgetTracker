@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BudgetTracker
 {
-    // Classe principale pour la gestion du budget
+ 
     class BudgetManager
     {
         private List<Transaction> transactions;
