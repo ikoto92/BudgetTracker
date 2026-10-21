@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace BudgetTracker
 {
- 
     class BudgetManager
     {
         private List<Transaction> transactions;
         private double balance;
         private const string filePath = "transactions.csv";
-
         public BudgetManager()
         {
             transactions = new List<Transaction>();
